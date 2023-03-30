@@ -1,0 +1,10 @@
+<div role="listitem" class="hotel-item">
+  <img class="thumbnail" [src]="hotel.main_photo" alt="thumbnail" />
+  <div class="hotel-detail">
+    <div class="hotel-name">{{ hotel.name }}</div>
+    <app-rate></app-rate>
+    <app-score [score]="hotel.score"></app-score>
+    <app-price [price]="hotel.price"></app-price>
+    <app-policy [policy]="hotel.policy"></app-policy>
+  </div>
+</div>

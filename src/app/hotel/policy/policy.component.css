@@ -1,0 +1,13 @@
+.hotel-policy {
+  display: flex;
+  gap: 5px;
+}
+
+.policy-item {
+  display: inline-flex;
+  padding: 6px;
+  border: 1px solid var(--green-color);
+  color: var(--green-color);
+  border-radius: 30px;
+  font-size: 12px;
+}

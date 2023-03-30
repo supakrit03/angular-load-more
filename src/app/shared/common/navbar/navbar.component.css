@@ -1,0 +1,5 @@
+.navbar {
+  background-color: var(--sky-color);
+  color: #fff;
+  padding: 1em;
+}

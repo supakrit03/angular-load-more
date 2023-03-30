@@ -1,0 +1,16 @@
+<section role="list" class="hotel-list">
+  <app-hotel-total [total]="getHotelsLength()"></app-hotel-total>
+  <app-hotel-item
+    *ngFor="let hotel of hotels; index as i"
+    [hotel]="hotel"
+  ></app-hotel-item>
+  <div *ngIf="loading" class="loading">Loading...</div>
+  <div *ngIf="isOutOfRange" class="out-of-data">Out of data</div>
+  <button
+    *ngIf="!loading && !isOutOfRange"
+    class="btn-load-more"
+    (click)="onClickLoadMore()"
+  >
+    Load more
+  </button>
+</section>

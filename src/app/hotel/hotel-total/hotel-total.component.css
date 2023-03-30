@@ -1,0 +1,13 @@
+.hotel-total-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hotel-total {
+  padding: 6px 10px 6px 10px;
+  border: 1px solid var(--sky-color);
+  border-radius: 30px;
+  background-color: #fff;
+  color: var(--sky-color);
+  font-weight: bold;
+}

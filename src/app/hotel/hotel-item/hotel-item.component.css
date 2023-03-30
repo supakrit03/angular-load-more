@@ -1,0 +1,27 @@
+.hotel-item {
+  display: flex;
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 10px;
+  gap: 14px;
+  overflow: hidden;
+  box-shadow: 1px 8.8px 10px rgba(0, 0, 0, 0.02),
+    8px 70px 80px rgba(0, 0, 0, 0.04);
+}
+
+.hotel-name {
+  font-size: 14px;
+}
+
+.thumbnail {
+  border-radius: 10px;
+  width: 120px;
+  min-width: 120px;
+  height: 146px;
+}
+
+.hotel-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

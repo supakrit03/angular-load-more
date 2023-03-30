@@ -1,0 +1,10 @@
+.hotel-price {
+  font-weight: bold;
+  color: var(--sky-color);
+  font-size: 14px;
+}
+
+.hotel-price span {
+  font-size: 12px;
+  color: var(--black-color);
+}
